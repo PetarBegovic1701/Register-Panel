@@ -1,0 +1,170 @@
+html, body {
+    box-sizing: border-box;
+}
+/****** DEBUG ONLY ******/
+.border * {
+    border: 1px solid violet;
+}
+.border1 {
+    border: 1px solid green;
+}
+.border2 {
+    border: 1px solid blue;
+}
+/****** DEBUG ONLY ******/
+
+body * {
+    font-size: small;
+}
+.shadow-background {
+    -webkit-box-shadow: 12px 24px 86px -12px rgba(0,5,92,0.53);
+    -moz-box-shadow: 12px 24px 86px -12px rgba(0,5,92,0.53);
+    box-shadow: 12px 24px 86px -12px rgba(0,5,92,0.53);
+}
+.makeshift * {
+    background: #2574A9;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+.makeshift {
+    border: 3px solid #2574A9;
+    background: #2574A9;
+    transition: all ease-in-out .2s;
+}
+.makeshift:hover{
+    border: 3px solid #206694;
+    transition: all ease-in-out .2s;
+}
+
+.makeshift div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.makeshift div input {
+    width: 90%;
+    border: transparent;
+    border-radius: 0px;
+    text-align: left;
+    text-indent: 20%;
+    color: #ccc;
+    font-size: small;
+}
+.makeshift div input:focus {
+    background-color:transparent;
+    color: #fff;
+}
+.makeshift div input::-webkit-input-placeholder {
+    color: #ccc;
+    font-style: italic;
+    font-size: small;
+}
+.makeshift div input:-moz-placeholder {
+    color: #ccc;
+    font-style: italic;
+    font-size: small;
+}
+.makeshift div input::-moz-placeholder {
+    color: #ccc;
+    font-style: italic;
+    font-size: small;
+}
+.makeshift div input:-ms-input-placeholder {
+    color: #ccc;
+    font-style: italic;
+    font-size: small;
+}
+.too-much-hassle + .to-do-it-otherwise::before {
+    content: '';
+    border-left: 1px solid #ccc;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    top: 25%;
+}
+
+/****** Background color section ******/
+.form-body {
+    border-top: 15px solid #2574A9;
+}
+.panel-top {
+    background-color: #fff; 
+    border-bottom: 1px solid #DDD;
+}
+.panel-body {
+    background-color: #fafafa;
+    border-bottom: 1px solid #DDD;
+}
+.panel-bottom {
+    background-color: #f2f2f2; 
+    border-bottom: 1px solid #DDD;
+}
+/*End of background color section*/
+.panel-top h1 {
+    font-size: 24px;
+}
+.custom-button button {
+    width: 80%;
+    background: #fff;
+    border: 1px solid #2574A9;
+    border-radius: 0px;
+    color: #2574A9;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+.custom-button button:hover {
+    background: #2574A9 !important;
+    border: 1px solid #31609b;
+    color: #fff !important;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    cursor: pointer;
+}
+#autofill-override div input:-webkit-autofill, #autofill-override div textarea:-webkit-autofill, #autofill-override div select:-webkit-autofill {
+    background-color: #1f6798 !important;
+    -webkit-box-shadow:0 0 0 50px #1f6798 inset;
+    -webkit-text-fill-color: #ccc !important;
+    color: #fff !important;
+}
+@media (min-width:320px) and (max-width:374px) {
+    body * {
+        font-size: x-small
+    }
+    .makeshift div input::-webkit-input-placeholder {
+        font-size: x-small
+    }
+    .makeshift div input:-moz-placeholder {
+        font-size: x-small
+    }
+    .makeshift div input::-moz-placeholder {
+        font-size: x-small
+    }
+    .makeshift div input:-ms-input-placeholder {
+        font-size: x-small
+    }
+
+
+}
+@media (min-width:426px) and (max-width:767px) {
+    body * {
+        font-size: x-small
+    }
+    .makeshift div input::-webkit-input-placeholder {
+        font-size: x-small
+    }
+    .makeshift div input:-moz-placeholder {
+        font-size: x-small
+    }
+    .makeshift div input::-moz-placeholder {
+        font-size: x-small
+    }
+    .makeshift div input:-ms-input-placeholder {
+        font-size: x-small
+    }
+
+}

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Register portfolio item</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-7 mx-auto mt-4">
+            <form action="Register" method="post" class="form-horizontal form-body shadow-background " id="autofill-override">
+                <div class="row panel-top py-3 px-4 mx-0">
+                    <h1 class="col-8 text-muted">Create a new account</h1>
+                    <h1 class="col-4 text-muted text-right">Logo</h1>
+                </div>
+                <div class="panel-body py-1 px-3">
+                    <div validation-summary="All" class="text-danger"></div>
+                    <div class="col-xl-10 col-lg-8 col-md-10 col-sm-10 mx-auto">
+                        <div class="row makeshift form-group my-3">
+                            <div class="col-1">
+                                <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-4 too-much-hassle">
+                                <label class="control-label">
+                                    Username
+                                </label>
+                            </div>
+                            <div class="col-7 to-do-it-otherwise">
+                                <input type="text"  placeholder="Enter your username" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="row makeshift form-group my-3">
+                            <div class="col-1">
+                                <i class="fa fa-lock fa-fw" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-4 too-much-hassle">
+                                <label class="control-label">Password</label>
+                            </div>
+                            <div class="col-7 to-do-it-otherwise">
+                                <input type="password" placeholder="Enter your password" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="row makeshift form-group my-3">
+                            <div class="col-1">
+                                <i class="fa fa-key fa-fw" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-4 too-much-hassle">
+                                <label class="control-label">Confirm Password</label>
+                            </div>
+                            <div class="col-7 to-do-it-otherwise">
+                                <input type="password" placeholder="Confirm Password" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group py-2">
+                        <div class="custom-button text-center">
+                            <button type="submit" class="btn btn-secondary">Register</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-bottom py-2">
+                    <p class="text-right text-muted mr-4 py-0 my-1">Already have an account?</p>
+                    <p class="text-right text-muted mr-4 py-0 my-1">Go to our <a href="#">login <i class="fa fa-sign-in" aria-hidden="true"></i></a> page.</p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
